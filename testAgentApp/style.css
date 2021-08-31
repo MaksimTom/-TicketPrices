@@ -1,0 +1,77 @@
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+h1 {
+  display: inline-block;
+  width: 250px;
+  font-size: 16px;
+}
+
+.km {
+  display: flex;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.age {
+  display: flex;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.mass {
+  display: flex;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.subm {
+  display: flex;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.subm input {
+  padding: 0 25px;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4ba9d4;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.subm input:hover {
+  transition: all 0.5s;
+  background-color: #1b9199;
+}
+
+.subm input:active {
+  background-color: #2ac4d8;
+}
+
+input {
+  flex: 1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 5px;
+  padding-right: 10px;
+  border: 1px solid lightgray;
+}
+
+table th {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid lightgray;
+  background-color: #f3f2f2;
+}
